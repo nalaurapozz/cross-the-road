@@ -1,0 +1,135 @@
+html, body
+{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.playingarea
+{
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    cursor: default;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+button
+{
+    font-family: Ubuntu, sans-serif;
+    font-size: inherit;
+}
+
+.row
+{
+    position: relative;
+    background-size: auto 100%;
+    width: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.road
+{
+    background-image: url('images/road.png');
+}
+
+.track
+{
+    background-image: url('images/track.png');
+}
+
+.river
+{
+    background-image: url('images/river.png');
+}
+
+.path
+{
+    background-image: url('images/path.png');
+}
+
+.vehicle, .boat, .train
+{
+    position: absolute;
+    z-index: 1;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.player
+{
+    position: absolute;
+    z-index: 2;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.train-sign
+{
+    position: absolute;
+    margin-left: 60%;
+    z-index: 3;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.gameover
+{
+    box-sizing: border-box;
+    z-index: 5;
+    position: absolute;
+    background-color: red;
+    opacity: 0.8;
+    padding: 2em;
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    width: 50%;
+    border: 0.2em solid black;
+}
+
+.scores
+{
+    position: absolute;
+    top: 0.5em;
+    z-index: 2;
+    font-family: Ubuntu Mono, Courier New, monospace;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    padding: 0.2em;
+}
+
+.highscore
+{
+    right: 1.5em;
+}
+
+.score
+{
+    left: 1.5em;
+}
+
+.instructions
+{
+    position: absolute;
+    z-index: 2;
+    font-family: Ubuntu Mono, Courier New, monospace;
+    font-size: 2em;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    padding: 0.2em;
+}

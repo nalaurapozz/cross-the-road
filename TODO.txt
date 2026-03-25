@@ -1,0 +1,32 @@
+
++ Set player to dead when hits a vehicle
++ Stop all vehicles when dead (in tick)
++ Stop player when dead (on key press)
++ Display score and OK button when dead
++ OK button restarts
++ River, top path, boats that move
++ Die in river
++ Move with boats
++ Display score and high score
++ Update score and display victory when succeeded
++ Update high score on death
++ Fix bug where multiple moves leaves you off screen
++ Fix bug where direction is wrong on restart
++ After success reset
++ Player moves when on raft
++ Adjust death and raft collisions to look right
++ Player dies when off side of screen
++ Change direction when get to top
++ Different death image for water
++ Average time score
++ Add river lanes
++ Title page
++ Encoder/decoder
++ Encoding page
++ Add train
++ Die when hit by train
+- Use Url to display name
+- Apply Url encoding to encoding page
++ Add vehicles
++ Add rafts
++ Proper images

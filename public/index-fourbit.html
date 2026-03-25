@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Fourbit</title>
+<script src="fourbit.js"></script>
+<style>
+html { height: 95%; }
+body { height: 100%; }
+div { height: 100%; }
+textarea {
+    height: 33%;
+    width: 100%;
+}
+</style>
+</head>
+
+<body>
+  <div id="fourbit"></div>
+  <script>
+  var app = Elm.MainFourBit.init({
+    node: document.getElementById('fourbit')
+  });
+  </script>
+</body>
+</html>
