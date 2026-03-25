@@ -1,9 +1,12 @@
-# cross-the-road
+# Cross the Road
 
-A simple game of crossing a road written in Elm.
+Projeto utilizado para estudo na disciplina de Manutenção de Software. Baseado na versão original de Andy Balaam.
 
-Play it at [andybalaam.gitlab.io/cross-the-road](https://andybalaam.gitlab.io/cross-the-road/).
+## Como baixar e rodar o projeto
 
-Copyright 2018 Andy Balaam.
-
-Released under AGPLv3.  See [LICENSE](LICENSE) for information.
+1. Abra o terminal na pasta onde deseja salvar o projeto.
+2. Faça o clone do repositório com o comando:
+   `git clone https://github.com/nalaurapozz/cross-the-road.git`
+3. Entre na pasta do projeto:
+   `cd cross-the-road`
+4. Não é necessário instalar dependências para jogar. Acesse a pasta `public` e dê um duplo clique no arquivo `index.html` para abri-lo no navegador.
